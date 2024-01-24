@@ -19,7 +19,7 @@ namespace GourmetGame
             Application.SetCompatibleTextRenderingDefault(false);
             GourmetGame.Node x = new Node();
             //x.test();
-            Application.Run(new Form1());
+            Application.Run(new Jogo());
         }
 
     }
