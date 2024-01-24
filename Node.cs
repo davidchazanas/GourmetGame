@@ -7,10 +7,10 @@ namespace GourmetGame
 
     public class Node
     {
-	    public Node ()
-	    {		
-
-	    }
+	public Node ()
+	{		
+	
+	}
         public Node(Node yes, Node no, string question)
         {
 		    this.Yes = yes; ;
