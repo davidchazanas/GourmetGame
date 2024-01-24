@@ -15,7 +15,7 @@ The classes "Prompt" and "CenteredMessageBox" were created to ensure the dialogs
 
 **Running the project** 
 
-The game requires .NETFramework Version=v4.7.2.
+The game requires .NETFramework Version=v4.7.2 and Windows.
 
 To run the game, Open the repo in Visual Studio IDE and run the project (F5)
 
