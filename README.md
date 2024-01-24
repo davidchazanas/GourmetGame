@@ -10,7 +10,8 @@ Whenever a new answer and question is learned, the game will update the decision
 
 **Running the project** 
 
-The game requires .NETFramework Version=v4.7.2
+The game requires .NETFramework Version=v4.7.2.
+
 To run the game, Open the repo in Visual Studio IDE and run the project (F5)
 
 Thanks a lot!
