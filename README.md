@@ -29,7 +29,7 @@ David
 
 ![image](https://github.com/davidchazanas/GourmetGame/assets/30768299/b09d2e6e-db3f-41a7-a041-5e1adc36f4a6)
 
-![image](https://github.com/davidchazanas/GourmetGame/assets/30768299/76867964-7081-4556-9c45-2fd8ab789152)
+![image](https://github.com/davidchazanas/GourmetGame/assets/30768299/e29df8ae-e956-49e5-aa31-9fdf73a736ce)
 
 ![image](https://github.com/davidchazanas/GourmetGame/assets/30768299/b92cc6e3-ed9f-4c4f-ab11-329a822bc7e1)
 
