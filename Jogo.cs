@@ -22,12 +22,7 @@ namespace GourmetGame
         {
             StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
-            this.Text = "Jogo Gourmet";
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
+            this.Text = Resources.Messages.JogoGourmet;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,12 +35,12 @@ namespace GourmetGame
             if (node.Question != null)
             {
 
-                DialogResult dialogResult = CenteredMessageBox.Show("O prato que você pensou é " + node.Question + "?", "Confirm", false);
+                DialogResult dialogResult = CenteredMessageBox.Show(string.Format(Resources.Messages.OPratoQueVocePensouX, node.Question), "Confirm", false);
                 if (dialogResult == DialogResult.Yes)
                 {
                     if (node.Yes == null)
                     {
-                        CenteredMessageBox.Show("Acertei de novo!", "Jogo Gourmet", true);
+                        CenteredMessageBox.Show(Resources.Messages.AcerteiNovamente, Resources.Messages.JogoGourmet, true);
                     }
                     else
                     {
@@ -60,8 +55,8 @@ namespace GourmetGame
                     }
                     else
                     {
-                        string answer = Prompt.ShowDialog("Qual prato você pensou?", "Desisto");
-                        string question = Prompt.ShowDialog(answer + " é ___, mas " + node.Question + " não.", "Complete");
+                        string answer = Prompt.ShowDialog(Resources.Messages.QualPratoVocePensou, Resources.Messages.Desisto);
+                        string question = Prompt.ShowDialog(string.Format(Resources.Messages.XeMasYnao, answer, node.Question), Resources.Messages.Complete);
 
                         Node new_answer = new Node(null, null, answer);
                         Node new_question = new Node(null, null, question);
@@ -85,19 +80,5 @@ namespace GourmetGame
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
