@@ -1,6 +1,6 @@
 ﻿namespace GourmetGame
 {
-    partial class Form1
+    partial class Jogo
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -57,14 +57,14 @@
             this.label1.Text = "Pense em um prato que você gosta";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // Jogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(267, 95);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Jogo";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

@@ -12,21 +12,22 @@ using System.Windows.Forms;
 
 namespace GourmetGame
 {
-    public partial class Form1 : Form
+    public partial class Jogo : Form
     {
         public List<String> Comidas = new List<String>();
         public Dictionary<String, String> foodsAndProps = new Dictionary<String, String>();
         Node node = new Node().InitialNodes();
 
-        public Form1()
+        public Jogo()
         {
             StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
+            this.Text = "Jogo Gourmet";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,12 +40,12 @@ namespace GourmetGame
             if (node.Question != null)
             {
 
-                DialogResult dialogResult = CenteredMessageBox.Show("O prato que você pensou é " + node.Question + "?", "Confirm");
+                DialogResult dialogResult = CenteredMessageBox.Show("O prato que você pensou é " + node.Question + "?", "Confirm", false);
                 if (dialogResult == DialogResult.Yes)
                 {
                     if (node.Yes == null)
                     {
-                        MessageBox.Show("Acertei");
+                        CenteredMessageBox.Show("Acertei de novo!", "Jogo Gourmet", true);
                     }
                     else
                     {
@@ -59,8 +60,8 @@ namespace GourmetGame
                     }
                     else
                     {
-                        string answer = Prompt.ShowDialog("Qual prato você pensou?", "Qual prato você pensou?");
-                        string question = Prompt.ShowDialog(answer + " é ___, mas " + node.Question + " não.", "");
+                        string answer = Prompt.ShowDialog("Qual prato você pensou?", "Desisto");
+                        string question = Prompt.ShowDialog(answer + " é ___, mas " + node.Question + " não.", "Complete");
 
                         Node new_answer = new Node(null, null, answer);
                         Node new_question = new Node(null, null, question);
@@ -85,6 +86,16 @@ namespace GourmetGame
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }
