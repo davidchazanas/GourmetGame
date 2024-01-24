@@ -10,10 +10,7 @@ namespace GourmetGame
 
     public class NodeLogic
     {
-	    public NodeLogic()
-	    {		
-	
-	    }
+	    public NodeLogic() { }
 
         public Node InitialNodes()
         {
