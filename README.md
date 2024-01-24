@@ -11,6 +11,7 @@ Whenever a new answer and question is learned, the game will update the decision
 
 The classes "Prompt" and "CenteredMessageBox" were created to ensure the dialogs are prompted in the position desired, which is: centered at the parent with a AutoSize property.
 
+In my implementation, both questions like "is it sweet?" and guessess "is it lasagna?" are treated as the same structure. Only difference is the guessess don't have follow up questions, so a Yes means victory and a no means we need to ask the user for a new answer, and for a question that makes it differ from the current answer.
 
 **Running the project** 
 
