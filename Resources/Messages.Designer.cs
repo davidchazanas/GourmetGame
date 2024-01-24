@@ -70,6 +70,15 @@ namespace GourmetGame.Resources {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Bolo de chocolate.
+        /// </summary>
+        internal static string BoloChocolate {
+            get {
+                return ResourceManager.GetString("BoloChocolate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Complete.
         /// </summary>
         internal static string Complete {
@@ -93,6 +102,24 @@ namespace GourmetGame.Resources {
         internal static string JogoGourmet {
             get {
                 return ResourceManager.GetString("JogoGourmet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Lasanha.
+        /// </summary>
+        internal static string Lasanha {
+            get {
+                return ResourceManager.GetString("Lasanha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Massa.
+        /// </summary>
+        internal static string Massa {
+            get {
+                return ResourceManager.GetString("Massa", resourceCulture);
             }
         }
         

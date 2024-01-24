@@ -120,6 +120,9 @@
   <data name="AcerteiNovamente" xml:space="preserve">
     <value>Acertei de novo!</value>
   </data>
+  <data name="BoloChocolate" xml:space="preserve">
+    <value>Bolo de chocolate</value>
+  </data>
   <data name="Complete" xml:space="preserve">
     <value>Complete</value>
   </data>
@@ -128,6 +131,12 @@
   </data>
   <data name="JogoGourmet" xml:space="preserve">
     <value>Jogo Gourmet</value>
+  </data>
+  <data name="Lasanha" xml:space="preserve">
+    <value>Lasanha</value>
+  </data>
+  <data name="Massa" xml:space="preserve">
+    <value>Massa</value>
   </data>
   <data name="OPratoQueVocePensouX" xml:space="preserve">
     <value>O Prato que você pensou é {0} ?</value>

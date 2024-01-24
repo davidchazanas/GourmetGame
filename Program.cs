@@ -16,9 +16,7 @@ namespace GourmetGame
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            GourmetGame.Node x = new Node();
-            //x.test();
+            Application.SetCompatibleTextRenderingDefault(false);            
             Application.Run(new Jogo());
         }
 

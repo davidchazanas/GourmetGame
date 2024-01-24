@@ -55,10 +55,11 @@
     <Compile Include="Jogo.Designer.cs">
       <DependentUpon>Jogo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Node.cs" />
+    <Compile Include="Model\Node.cs" />
+    <Compile Include="Logic\NodeLogic.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="CenteredMessageBox.cs" />
-    <Compile Include="Prompt.cs" />
+    <Compile Include="UI\CenteredMessageBox.cs" />
+    <Compile Include="UI\Prompt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Messages.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -105,8 +106,6 @@
     <Content Include="cake_muffin_cupcake_icon_206258.ico" />
     <Content Include="icone.ico.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
